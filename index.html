@@ -425,9 +425,9 @@
 
 
             <!-- hero version -->
-             <div class="flex-1 w-[95%] ml-auto">
+             <div class="flex-1 md:w-[95%] md:ml-auto">
               <div class="hero ">
-                <div class="hero-content flex-col lg:flex-row gap-20">
+                <div class="hero-content flex-col lg:flex-row gap-10 md:gap-20">
                   <img
                     src="./images/others/faq.png"
                     class="max-w-sm rounded-lg " />
@@ -490,8 +490,48 @@
     <!-- Footer Section -->
      
     <footer>
-
+      <footer class="footer bg-neutral text-neutral-content p-5 md:p-0">
+      <div class="md:container md:mx-auto md:w-9/12 py-8 md:py-14 md:flex md:justify-between">
+       <div class="md:w-[35%]">
+        <aside class="flex gap-6 mb-6 md:mb-3 text-[18px] md:text-[16px] ">
+          <p>Download Now</p>
+              
+                <p>licese</p>
+              
+            </aside>
+            <nav>
+              <div class="grid grid-cols-3 md:grid-cols-6 gap-3  mb-10">
+                <a>About
+                </a>
+                <a>Features
+                </a>
+                <a>Pricing
+                </a>
+                <a>Carear
+                </a>
+                <a>Help
+                </a>
+                <a class="md:w-[95px]">Privacy Policy
+                </a>
+              </div>
+            </nav>
+            <div class="hidden md:flex">
+              <p>&#169; 2020 bike. All rights reserved</p>
+            </div>
+       </div>
+        <div class="grid gap-4">
+          <p class="font-medium text-[18px]">Get The App</p>
+          <div class="flex gap-4 md:flex-col"><img class="w-[45%] md:w-[60%]" src="./images/others/ios.png" alt="">
+            <img class="w-[45%] md:w-[60%]" src="./images/others/android.png" alt=""></div>
+        </div>
+      </div>
+      </footer>
     </footer>
+    <section class="footer bg-neutral text-neutral-content">
+      <div class="mx-auto text-center md:hidden my-12">
+        <p>&#169; 2020 bike. All rights reserved</p>
+      </div>
+    </section>
     
 </body>
 </html>
